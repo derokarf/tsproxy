@@ -1,0 +1,25 @@
+{
+  "name": "http-proxy-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/proxy.ts 80",
+    "dev": "ts-node src/proxy.ts 3010",
+    "lint": "yarn tslint -c tslint.json src/*.ts"
+  },
+  "dependencies": {
+    "@types/node": "^10.11.0",
+    "debug": "3.1.x"
+  },
+  "devDependencies": {
+    "eslint": "4.x",
+    "eslint-config-airbnb-base": "12.x",
+    "eslint-plugin-import": "2.8.x",
+    "nodemon": "^1.12.1",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.1.1",
+    "typescript-eslint-parser": "^19.0.1"
+  }
+}
